@@ -4,4 +4,5 @@
 --
 
 local map = vim.keymap.set
-map("i", "<C-v>", "<C-o>p")
+map("i", "<C-v>", "<C-o>P")
+map("c", "<C-v>", "<C-S-R>+")

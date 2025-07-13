@@ -7,6 +7,6 @@
 local opts = vim.opt
 opts.clipboard = "unnamedplus"
 
-local opt = vim.opt_global
-opt.scrolloff = 100
+local opt_global = vim.opt_global
+opt_global.scrolloff = 100
 vim.g.snacks_animate = false
